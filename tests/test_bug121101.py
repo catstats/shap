@@ -2,7 +2,8 @@
 # fmt: off
 import time
 
-import lightgbm
+# import lightgbm
+import sklearn
 import torch
 from sklearn.datasets import fetch_california_housing
 
