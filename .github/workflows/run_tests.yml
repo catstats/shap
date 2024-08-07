@@ -30,6 +30,6 @@ jobs:
         with:
           python-version: 3.11
       - run: brew install libomp
-      - run: pip install pytest torch scikit-learn lightgbm
+      - run: pip install pytest torch lightgbm
       - run: pip list
       - run: pytest --noconftest tests/test_bug121101.py
