@@ -3,8 +3,8 @@
 import time
 
 # import lightgbm
-import sklearn
 import torch
+import sklearn
 from sklearn.datasets import fetch_california_housing
 
 
